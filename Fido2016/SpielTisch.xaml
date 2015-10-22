@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Fido2016.SpielTisch"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Fido2016" Height="1024" Width="1280">
+        Title="Fido2016" Height="1024" Width="1280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
     <Grid>
         <StackPanel x:Name="Spielerreihe" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1280" RenderTransformOrigin="0.503,0.46" Margin="0,0,-8,0">
             <Grid Height="100">

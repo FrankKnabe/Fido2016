@@ -27,7 +27,8 @@ namespace Fido2016
 
         private void cmdStart_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Klick");
+            var newWindow = new SpielTisch();
+            newWindow.Show();
         }
 
         private void numud_ValueChanged(object sender, EventArgs e)
