@@ -27,7 +27,8 @@ namespace Fido2016
 
         private void cmdStart_Click(object sender, RoutedEventArgs e)
         {
-            var newWindow = new SpielTisch();
+            int player = Convert.ToInt32(numud.Child.Text);
+            var newWindow = new SpielTisch(player);
             newWindow.Show();
         }
 
