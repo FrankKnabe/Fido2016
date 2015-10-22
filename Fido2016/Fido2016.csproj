@@ -71,12 +71,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Anlegeposition.cs" />
     <Compile Include="DominoHalbstein.xaml.cs">
       <DependentUpon>DominoHalbstein.xaml</DependentUpon>
     </Compile>
     <Compile Include="DominoStein.xaml.cs">
       <DependentUpon>DominoStein.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Rand.cs" />
+    <Compile Include="Spielausfuehrung.cs" />
+    <Compile Include="Spieler.cs" />
     <Compile Include="SpielTisch.xaml.cs">
       <DependentUpon>SpielTisch.xaml</DependentUpon>
     </Compile>
