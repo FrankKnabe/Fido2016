@@ -71,9 +71,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DominoHalbstein.xaml.cs">
+      <DependentUpon>DominoHalbstein.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DominoStein.xaml.cs">
+      <DependentUpon>DominoStein.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SpielTisch.xaml.cs">
       <DependentUpon>SpielTisch.xaml</DependentUpon>
     </Compile>
+    <Page Include="DominoHalbstein.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DominoStein.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -1,0 +1,8 @@
+﻿<Window x:Class="Fido2016.DominoHalbstein"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DominoHalbstein" Height="300" Width="300">
+    <Grid x:Name="Halbstein">
+        
+    </Grid>
+</Window>
