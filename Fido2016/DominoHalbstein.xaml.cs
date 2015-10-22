@@ -169,7 +169,7 @@ namespace Fido2016
         public int Augenzahl
         {
             get { return _Augenzahl; }
-            set { _Augenzahl = value; /*InitDominostein(value, Augenzahl);*/ }
+            set { _Augenzahl = value; }
         }
 
         public SolidColorBrush Farbe
