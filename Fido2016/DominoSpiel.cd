@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Fido2016.DominoHalbstein">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAABAIACAAAAAAAAAAAAAAAAAgAAAAABAAAAAA=</HashCode>
+      <FileName>DominoHalbstein.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fido2016.DominoStein">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAEAIAAAAAACAACAQIQAQAAAAAAgBgAAAAAA=</HashCode>
+      <FileName>DominoStein.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fido2016.Rand">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAAAAAAAAAAAQAAIAADIAAAAAAAAABw=</HashCode>
+      <FileName>Rand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fido2016.Spielausfuehrung">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spielausfuehrung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fido2016.Spieler">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIABAAAAAAAAgAAAAAIAAAAAEAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>Spieler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fido2016.SpielTisch">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpielTisch.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fido2016.MainWindow">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
