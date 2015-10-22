@@ -23,5 +23,16 @@ namespace Fido2016
         {
             InitializeComponent();
         }
+
+        internal Spielausfuehrung Spielausfuehrung
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

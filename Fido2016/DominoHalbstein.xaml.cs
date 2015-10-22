@@ -177,5 +177,16 @@ namespace Fido2016
             get { return _Farbe; }
             set { _Farbe = value; }
         }
+
+        public DominoStein DominoStein
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

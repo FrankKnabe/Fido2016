@@ -54,5 +54,16 @@ namespace Fido2016
             set { _himmelsrichtung = value; }
         }
 
+        public SpielTisch SpielTisch
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
     }
 }

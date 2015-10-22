@@ -49,5 +49,16 @@ namespace Fido2016
             get { return _hand; }
             set { _hand = value; }
         }
+
+        public SpielTisch SpielTisch
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

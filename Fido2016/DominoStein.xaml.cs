@@ -70,5 +70,16 @@ namespace Fido2016
         public bool RechtsOffen { get; set; }
 
         public bool LinksOffen { get; set; }
+
+        public SpielTisch SpielTisch
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

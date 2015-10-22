@@ -3,26 +3,35 @@
   <Class Name="Fido2016.DominoHalbstein">
     <Position X="1.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACEAAAABAIACAAAAAAAAAAAAAAAAAgAAAAABAAAAAA=</HashCode>
+      <HashCode>AACEAAABBAIACAAAAAAAAAAAAAAAAAgAAAAABAAAAAA=</HashCode>
       <FileName>DominoHalbstein.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DominoStein" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Fido2016.DominoStein">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAgAAAEAIAAAAAACAACAQIQAQAAAAAAgBgAAAAAA=</HashCode>
+      <HashCode>AgAAAhAAAEAIAAAAAACAACAQIQAQAAAAAAgBgAAAAAA=</HashCode>
       <FileName>DominoStein.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpielTisch" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Fido2016.Rand">
-    <Position X="6.75" Y="4.5" Width="1.5" />
+    <Position X="9" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAEAAAAAAAAAAAAAAAAQAAIAADIAAAAAAAAABw=</HashCode>
+      <HashCode>AQAAABAEAAAAAAAAAAAAAAAAQAAIAADIAAAAAAAAABw=</HashCode>
       <FileName>Rand.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpielTisch" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Fido2016.Spielausfuehrung">
-    <Position X="1.5" Y="4.5" Width="1.5" />
+    <Position X="6" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Spielausfuehrung.cs</FileName>
@@ -31,23 +40,32 @@
   <Class Name="Fido2016.Spieler">
     <Position X="3.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAIABAAAAAAAAgAAAAAIAAAAAEAAAAAAAAAAIAAgA=</HashCode>
+      <HashCode>IAAAIBBAAAAAAAAgAAAAAIAAAAAEAAAAAAAAAAIAAgA=</HashCode>
       <FileName>Spieler.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpielTisch" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Fido2016.SpielTisch">
-    <Position X="8.5" Y="4.5" Width="1.5" />
+    <Position X="6" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>SpielTisch.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Spielausfuehrung" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Fido2016.MainWindow">
     <Position X="8" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAA=</HashCode>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAA=</HashCode>
       <FileName>MainWindow.xaml.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpielTisch" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
