@@ -41,12 +41,12 @@ namespace Fido2016
             InitializeComponent();
         }
 
-        public DominoStein(DominoHalbstein o, DominoHalbstein u, int ao, int au, bool oo, bool uo)
+        public DominoStein(DominoHalbstein o, DominoHalbstein u, bool oo, bool uo)
         {
             HalbsteinOben = o;
             HalbsteinUnten = u;
-            AugenzahlOben = ao;
-            AugenzahlUnten = au;
+            AugenzahlOben = o.Augenzahl;
+            AugenzahlUnten = u.Augenzahl;
             ObenOffen = oo;
             UntenOffen = uo;
             RechtsOffen = false;
