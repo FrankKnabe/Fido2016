@@ -3,6 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Fido2016" Height="1024" Width="1280">
     <Grid>
-        
+        <StackPanel x:Name="Spielerreihe" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1280" RenderTransformOrigin="0.503,0.46" Margin="0,0,-8,0">
+            <Grid Column="4"  Height="100"/>
+        </StackPanel>
+        <StackPanel x:Name="Nachziehstapel" HorizontalAlignment="Left" Height="894" Margin="0,100,0,0" VerticalAlignment="Top" Width="100"/>
+        <Canvas x:Name="Spielflaeche" HorizontalAlignment="Left" Height="894" Margin="100,100,0,0" VerticalAlignment="Top" Width="1180"/>
     </Grid>
 </Window>
