@@ -13,7 +13,7 @@
   <Class Name="Fido2016.DominoStein">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAhAAAEAIAAAAAACAACAQIQAQAAAAAAgBgAAAAAA=</HashCode>
+      <HashCode>AoAAAhAABEAIAAAAAACAACAYIQAQAAAAAAgBgAAAAAA=</HashCode>
       <FileName>DominoStein.xaml.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -33,7 +33,7 @@
   <Class Name="Fido2016.Spielausfuehrung">
     <Position X="6" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAEgBAAAAAAAgIAACkAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>CAAAgBAAQAAAAAIAACkAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>Spielausfuehrung.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -43,7 +43,7 @@
   <Class Name="Fido2016.Spieler">
     <Position X="3.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAIBBAAAAAAAAgAAAAAIAAAAAEAAAAAAAAAAIAAgA=</HashCode>
+      <HashCode>IAAAIBBAAAACAAAgAAAAAIAAAAAEAAAAAAAAAAIAAgA=</HashCode>
       <FileName>Spieler.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -53,7 +53,7 @@
   <Class Name="Fido2016.SpielTisch">
     <Position X="6" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQAAAAAAAAAEE=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgACAAAAAAgAAAAAAAAAAAIAgAAIAEE=</HashCode>
       <FileName>SpielTisch.xaml.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

@@ -23,6 +23,10 @@ namespace Fido2016
             name = n;
         }
 
+        public void SpielsteineZiehen(DominoStein Spielstein)
+        {
+            hand.Add(Spielstein);
+        }
         public String name
         {
             get { return _name; }
