@@ -8,6 +8,12 @@ namespace Fido2016
 {
     class Spielausfuehrung
     {
+        List<Spieler> spieler = new List<Spieler>();
+        List<Anlegeposition> anlegepositionen = new List<Anlegeposition>();
+        List<DominoStein> dominosteine;
+        int anzahlAnfangssteine;
+        int aktiverSpieler;
+        int zufallszahl;
         public bool PaschErkennen(int AugenzahlOben, int AugenzalUnten)
         {
             Boolean Token;

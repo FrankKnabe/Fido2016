@@ -19,9 +19,16 @@ namespace Fido2016
     /// </summary>
     public partial class SpielTisch : Window
     {
-        
         public SpielTisch()
         {
+            InitializeComponent();
+        }
+        public SpielTisch(int player)
+        {
+            int AnzahlSpieler = player;
+            
+
+
             InitializeComponent();
         }
 
