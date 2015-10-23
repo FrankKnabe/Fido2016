@@ -19,9 +19,13 @@ namespace Fido2016
 
         }
 
-        public Rand(DominoStein ds)
+        public Rand(DominoStein ds, int x, int y, String hr, int p)
         {
             domino = ds;
+            posx = x;
+            posy = y;
+            himmelsrichtung= hr;
+            punktzahl = p;
         }
 
         public DominoStein domino

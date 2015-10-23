@@ -54,7 +54,7 @@ namespace Fido2016
             aktiverStein = false;
 
             InitializeComponent();
-            MouseLeftButtonUp += new MouseButtonEventHandler(MoeglicheSteinPositionen);
+            MouseLeftButtonUp += new MouseButtonEventHandler(MoeglicheSteinPositionenErmitteln);
             InitDominoStein(HalbsteinOben, HalbsteinUnten);
         }
 
@@ -93,7 +93,7 @@ namespace Fido2016
             Stein.Children.Add(Rand);
         }
 
-        public void MoeglicheSteinPositionen(object sender, RoutedEventArgs e)
+        public void MoeglicheSteinPositionenErmitteln(object sender, RoutedEventArgs e)
         {
 
         }

@@ -21,6 +21,10 @@ namespace Fido2016
     {
         int _AnzahlSpieler;
         List<Spieler> spieler = new List<Spieler>();
+        SolidColorBrush oFarbe = System.Windows.Media.Brushes.Red;
+        SolidColorBrush uFarbe = System.Windows.Media.Brushes.Black;
+        int zufallszahl;
+        Random rnd = new Random();
 
         public SpielTisch()
         {
@@ -30,15 +34,25 @@ namespace Fido2016
         {
             InitializeComponent();
             AnzahlSpieler = player;
-            Spielausfuehrung.AnzahlDominosteineErmitteln(AnzahlSpieler);
+            int AnzahlSteine = Spielausfuehrung.AnzahlDominosteineErmitteln(AnzahlSpieler);
+            List<DominoStein> SteinListe = Spielausfuehrung.DominoSteineErzeugen(oFarbe, uFarbe);
+            //Spielerfelder mit Steinen befüllen
+            zufallszahl = rnd.Next(0, SteinListe.Count);
+            for (int i = 0; i < AnzahlSpieler; i++ )
+            {
+
+            }
 
         }
+
+        
+
+
 
         //Spielerinstanzen werden erstellt und in einer Liste gespeichert
         public void spielerhinzufügen(string spielername)
         {
             spieler.Add(new Spieler(spielername));
-
         }
 
         public int AnzahlSpieler

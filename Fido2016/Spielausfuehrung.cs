@@ -20,12 +20,8 @@ namespace Fido2016
         List<DominoStein> dominosteine = new List<DominoStein>();
         List<DominoHalbstein> dominohalbsteineOben = new List<DominoHalbstein>();
         List<DominoHalbstein> dominohalbsteineUnten = new List<DominoHalbstein>();
-        SolidColorBrush oFarbe = System.Windows.Media.Brushes.Red;
-        SolidColorBrush uFarbe = System.Windows.Media.Brushes.Black;
         int anzahlAnfangssteine;
         Boolean aktiverSpieler;
-        int zufallszahl;
-        Random rnd = new Random();
 
         public SpielTisch SpielTisch
         {
@@ -73,10 +69,6 @@ namespace Fido2016
             return dominosteine;
         }
 
-        public void SteinAnlegen()
-        {
-
-        }
 
         //Vergleicht, ob ein Pasch vorhanden ist, oder nicht
         public bool PaschErkennen(int AugenzahlOben, int AugenzalUnten)
