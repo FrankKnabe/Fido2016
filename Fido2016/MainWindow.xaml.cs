@@ -25,6 +25,17 @@ namespace Fido2016
             InitializeComponent();
         }
 
+        public SpielTisch SpielTisch
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         private void cmdStart_Click(object sender, RoutedEventArgs e)
         {
             int player = Convert.ToInt32(numud.Child.Text);

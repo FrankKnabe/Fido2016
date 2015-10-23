@@ -19,9 +19,21 @@ namespace Fido2016
     /// </summary>
     public partial class SpielTisch : Window
     {
-        public SpielTisch(int player)
+        
+        public SpielTisch()
         {
             InitializeComponent();
+        }
+
+        internal Spielausfuehrung Spielausfuehrung
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
         }
     }
 }
