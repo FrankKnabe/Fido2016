@@ -41,8 +41,28 @@ namespace Fido2016
             int player = Convert.ToInt32(numud.Child.Text);
             var newWindow = new SpielTisch(player);
             newWindow.Show();
-        }
 
+            //Spielernamen zur Liste der Spieler hinzufügen
+            for (int i = 1; i <= player; i++)
+            {
+                switch (i)
+                {
+                    case 1:
+                        newWindow.spielerhinzufügen(player1.Text.ToString());
+                        break;
+                    case 2:
+                        newWindow.spielerhinzufügen(player2.Text.ToString());
+                        break;
+                    case 3:
+                        newWindow.spielerhinzufügen(player3.Text.ToString());
+                        break;
+                    case 4:
+                        newWindow.spielerhinzufügen(player4.Text.ToString());
+                        break;
+                }
+            }
+        }
+        //Die Eingabefelder, die zur Verfügung stehen, sind von der Anzahl der Spieler abhängig
         private void numud_ValueChanged(object sender, EventArgs e)
         {
             try

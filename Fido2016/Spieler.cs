@@ -9,8 +9,8 @@ namespace Fido2016
     class Spieler
     {
         String _name;
-        bool _aktiv;
-        int _punkte;
+        bool _aktiv = false;
+        int _punkte = 0;
         List<DominoStein> _hand = new List<DominoStein>();
 
         public Spieler()
@@ -18,12 +18,9 @@ namespace Fido2016
 
         }
 
-        public Spieler(String n, bool a, int p, List<DominoStein> h)
+        public Spieler(String n)
         {
             name = n;
-            aktiv = a;
-            punkte = p;
-            hand = h;
         }
 
         public String name

@@ -19,17 +19,32 @@ namespace Fido2016
     /// </summary>
     public partial class SpielTisch : Window
     {
+        int _AnzahlSpieler;
+        List<Spieler> spieler = new List<Spieler>();
+
         public SpielTisch()
         {
             InitializeComponent();
         }
         public SpielTisch(int player)
         {
-            int AnzahlSpieler = player;
-            
-
-
             InitializeComponent();
+            AnzahlSpieler = player;
+            Spielausfuehrung.AnzahlDominosteineErmitteln(AnzahlSpieler);
+
+        }
+
+        //Spielerinstanzen werden erstellt und in einer Liste gespeichert
+        public void spielerhinzufügen(string spielername)
+        {
+            spieler.Add(new Spieler(spielername));
+
+        }
+
+        public int AnzahlSpieler
+        {
+            get { return _AnzahlSpieler; }
+            set { _AnzahlSpieler = value; }
         }
 
         internal Spielausfuehrung Spielausfuehrung
