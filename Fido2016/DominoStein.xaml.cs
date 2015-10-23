@@ -54,6 +54,56 @@ namespace Fido2016
             aktiverStein = false;
 
             InitializeComponent();
+            MouseLeftButtonUp += new MouseButtonEventHandler(MoeglicheSteinPositionen);
+            InitDominoStein(HalbsteinOben, HalbsteinUnten);
+        }
+
+        public void InitDominoStein(DominoHalbstein Oben, DominoHalbstein Unten)
+        {
+            Border Rand = new Border();
+            Rand.Height = 85;
+            Rand.Width = 45;
+
+
+            Grid Stein = new Grid();
+            Stein.Height = 80;
+            Stein.Width = 40;
+
+            ColumnDefinition[] colDef = new ColumnDefinition[1];
+            RowDefinition[] rowDef = new RowDefinition[2];
+
+            colDef[0] = new ColumnDefinition();
+            rowDef[0] = new RowDefinition();
+            rowDef[1] = new RowDefinition();
+
+            Stein.ColumnDefinitions.Add(colDef[0]);
+            Stein.RowDefinitions.Add(rowDef[0]);
+            Stein.RowDefinitions.Add(rowDef[1]);
+
+            setCell(Stein, 0, 0, Oben);
+            setCell(Stein, 0, 1, Unten);
+
+            if (Oben.Augenzahl == Unten.Augenzahl)
+            {
+                RechtsOffen = true;
+                LinksOffen = true;
+            }
+
+            Rand.Child = Stein;
+            Stein.Children.Add(Rand);
+        }
+
+        public void MoeglicheSteinPositionen(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private static void setCell(Grid Stein, int col, int row, DominoHalbstein halbstein)
+        {
+            Grid.SetColumn(halbstein, col);
+            Grid.SetRow(halbstein, row);
+
+            Stein.Children.Add(halbstein);
         }
 
         public bool ObenOffen

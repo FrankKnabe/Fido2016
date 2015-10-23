@@ -23,7 +23,7 @@ namespace Fido2016
         SolidColorBrush oFarbe = System.Windows.Media.Brushes.Red;
         SolidColorBrush uFarbe = System.Windows.Media.Brushes.Black;
         int anzahlAnfangssteine;
-        int aktiverSpieler;
+        Boolean aktiverSpieler;
         int zufallszahl;
         Random rnd = new Random();
 
@@ -72,6 +72,13 @@ namespace Fido2016
             
             return dominosteine;
         }
+
+        public void SteinAnlegen()
+        {
+
+        }
+
+        //Vergleicht, ob ein Pasch vorhanden ist, oder nicht
         public bool PaschErkennen(int AugenzahlOben, int AugenzalUnten)
         {
             Boolean Token;
