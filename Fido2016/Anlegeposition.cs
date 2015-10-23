@@ -41,5 +41,16 @@ namespace Fido2016
             get { return _punktzahl; }
             set { _punktzahl = value; }
         }
+
+        public SpielTisch SpielTisch
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

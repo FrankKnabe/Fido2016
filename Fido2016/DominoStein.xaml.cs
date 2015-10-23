@@ -33,7 +33,7 @@ namespace Fido2016
         bool _RechtsOffen = false;
         bool _LinksOffen = false;
 
-        //Ist der Stein akti
+        //Ist der Stein aktiv
         bool aktiverStein = false;
 
         public DominoStein()

@@ -58,10 +58,20 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Fido2016.MainWindow">
-    <Position X="8" Y="1.5" Width="1.5" />
+    <Position X="9" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAA=</HashCode>
       <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpielTisch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Fido2016.Anlegeposition">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAQAAIAADIAAAAAAAAAAg=</HashCode>
+      <FileName>Anlegeposition.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="SpielTisch" />
